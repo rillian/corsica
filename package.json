@@ -22,6 +22,9 @@
     "es6-promise": "0.1.2",
     "express": "3.4.8",
     "request": "2.34.0",
-    "minimatch": "0.2.14"
+    "minimatch": "0.2.14",
+    "corsica-image": "*",
+    "corsica-video": "*",
+    "corsica-flickr": "*"
   }
 }
