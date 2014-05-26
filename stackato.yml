@@ -1,4 +1,4 @@
-name: corsica
+name: yvr-corsica
 instances: 1
 framework:
   type: node
