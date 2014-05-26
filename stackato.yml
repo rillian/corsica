@@ -9,3 +9,8 @@ processes:
 ignores: ["node_modules"]
 services:
   filesystem-corsica: filesystem
+env:
+  # Disable websockets for paas.allizom.org.
+  socketio_transports:
+    default: "['htmlfile','xhr-polling','jsonp-polling']"
+    prompt: n
